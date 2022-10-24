@@ -154,7 +154,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     private void AgregarContacto() {
         if(validar()){
-            Toast.makeText(this, "Ingreso datos", Toast.LENGTH_SHORT).show();
             SQLiteConexion conexion = new SQLiteConexion(this, Transacciones.NameDatabase, null, 1);
             SQLiteDatabase db = conexion.getWritableDatabase();
 
@@ -206,12 +205,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
 
         if(contienesololetras(c1)==false){
-            Toast.makeText(this, "el nombre no debe tener numeros", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "El nombre no debe tener numeros", Toast.LENGTH_SHORT).show();
             retorno=false;
         }
 
         if(validartelefono(c2)==false){
-            Toast.makeText(this, "el numero no debe ser menor de 8 digitos ", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "El numero no debe ser menor de 8 digitos ", Toast.LENGTH_SHORT).show();
             retorno=false;
         }
 
