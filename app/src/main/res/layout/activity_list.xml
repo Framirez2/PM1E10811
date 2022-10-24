@@ -10,7 +10,46 @@
         android:id="@+id/listcontacto"
         android:layout_width="0dp"
         android:layout_height="358dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="147dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="40dp"
+        android:text="Compartir"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="138dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="48dp"
+        android:text="Llamar"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        tools:layout_editor_absoluteY="465dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="145dp"
+        android:layout_height="51dp"
+        android:text="Eliminar"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="129dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="44dp"
+        android:text="Actualizar"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="527dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
