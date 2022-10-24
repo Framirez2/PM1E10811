@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/list_btncompartir"
         android:layout_width="147dp"
         android:layout_height="51dp"
         android:layout_marginStart="40dp"
@@ -27,27 +27,27 @@
         app:layout_constraintTop_toBottomOf="@+id/listcontacto" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/list_btnllamar"
         android:layout_width="138dp"
         android:layout_height="55dp"
         android:layout_marginStart="48dp"
         android:layout_marginTop="71dp"
         android:text="Llamar"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/list_btncompartir"
         app:layout_constraintTop_toBottomOf="@+id/listcontacto" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/list_btneliminar"
         android:layout_width="145dp"
         android:layout_height="51dp"
         android:text="Eliminar"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintEnd_toStartOf="@+id/list_btnactualizar"
         app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="527dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/list_btnactualizar"
         android:layout_width="129dp"
         android:layout_height="52dp"
         android:layout_marginEnd="44dp"

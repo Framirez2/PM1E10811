@@ -48,7 +48,6 @@ public class ActivityList extends AppCompatActivity {
             }
         });
 
-
     }
 
     private void GetListContact()

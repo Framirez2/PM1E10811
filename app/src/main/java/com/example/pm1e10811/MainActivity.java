@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     String PathImagen;
 
     Button btnsalvar,btntomarfoto,btnsalvados;
-    EditText nombre,telefono,nota;
-
+    EditText nombre,telefono,nota,pais;
+    Spinner spin_pais;
     private void config(){
         nombre = (EditText) findViewById(R.id.main_txtnombre);
         telefono = (EditText) findViewById(R.id.main_txttelefono);
@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         ObjetoImagen = (ImageView) findViewById(R.id.imageView);
         btnsalvados = (Button) findViewById(R.id.btnsalvados);
         btnsalvar = (Button) findViewById(R.id.btnsalvar);
+        //String text = spin_pais.getSelectedItem().toString();
+
     }
 
     @Override
@@ -89,7 +91,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 startActivity(intent);
             }
         });
-
 
 
     }
