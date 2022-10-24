@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PM1E10811</string>
+    <string name="agregar">Agregar</string>
+    <string-array name="numbers">
+        <item>Honduras(504)</item>
+        <item>Costa Rica(506)</item>
+        <item>Guatemala(502)</item>
+        <item>El Salvador(503) </item>
+    </string-array>
+
+</resources>
